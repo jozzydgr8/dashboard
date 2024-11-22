@@ -1,0 +1,63 @@
+
+ *{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+ }
+:root{
+  --white : white;
+}
+
+body{
+  background: #eaeaea;
+}
+
+
+/* special classe special css */
+section .container-fluid{
+  padding: 3% 7%;
+}
+.d-first, .d-second {
+  background: var(--white);
+}
+
+
+@media (max-width:795px) {
+  .header .col-md-4{
+    display: none;
+  }
+}
+
+/* dashboard dashbpard */
+.d-first{
+  height: 100px;
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  padding: 7px;
+  margin: 5px 0;
+  border-radius: 10px;
+  
+}
+.d-first img{
+  width: 40px;
+  height: 40px;
+
+}
+
+.d-second{
+  margin-top: 40px;
+  height: 300px;
+  border-radius: 20px;
+}
+/* dashbord dashboard */
+.container-fluid {
+  overflow-x: auto;
+  padding: 0 15px;
+}
+
+@media (max-width: 768px) {
+  .container-fluid {
+    padding: 0 10px;
+  }
+}
