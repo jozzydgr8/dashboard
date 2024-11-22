@@ -45,9 +45,6 @@ export const DashBoard = () => {
         });
     }, [cusDate]);
 
-    // Total number of users
-    const totalUser = merchantData.length + normalUserAcquisitions.length;
-
     // Total transaction volume
     const totalTransactions = transactionVolume.reduce(
         (sum, current) => sum + current.transactions,

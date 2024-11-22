@@ -22,12 +22,6 @@ section .container-fluid{
 }
 
 
-@media (max-width:795px) {
-  .header .col-md-4{
-    display: none;
-  }
-}
-
 /* dashboard dashbpard */
 .d-first{
   height: 100px;
